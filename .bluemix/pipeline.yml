@@ -9,16 +9,16 @@ stages:
   - type: stage
   properties:
   - name: gitPushUser
-    value: vinapp
+    value: sam-almighty
     type: text
   - name: gitPushToken
-    value: 6aba5bac3e0e7fecc9cb6ca4ff623325191117c6
+    value: d493a0f2ef2f8076ff53392e6bb445f631e28f19
     type: text
   - name: gitPushEmail
-    value: vin.app@gmail.com
+    value: sam.almighty85@gmail.com
     type: text
   - name: apkGitPushUrl
-    value: https://$gitPushToken:x-oauth-basic@github.com/vinapp/sample-android-app master
+    value: https://$gitPushToken:x-oauth-basic@github.com/sam-almighty/sample-android-app master
     type: text
   jobs:
   - name: Install Android SDK, Fastlane and build apk
@@ -113,7 +113,7 @@ stages:
     value: AndroidAppiumExampleTest
     type: text
   - name: bitbarApiKey
-    value: 3IMUlaWW1BW2uzESHldjo5cEU4swMqf7
+    value: 4NzWsHfszhngAZ7iyFAq0gGISkgtrtlJ
     type: text
   jobs:
   - name: Test the app using Appium scripts on Bitbar
@@ -129,22 +129,22 @@ stages:
   - type: stage
   properties:
   - name: gitUser
-    value: vinapp
+    value: sam-almighty
     type: text
   - name: gitToken
-    value: 6aba5bac3e0e7fecc9cb6ca4ff623325191117c6
+    value: d493a0f2ef2f8076ff53392e6bb445f631e28f19
     type: text
   - name: bitbarApiKey
-    value: '3IMUlaWW1BW2uzESHldjo5cEU4swMqf7:'
+    value: '4NzWsHfszhngAZ7iyFAq0gGISkgtrtlJ:'
     type: text
   - name: bitbarAppiumClientSideProject
-    value: https://cloud.testdroid.com/api/me/projects/137948056/runs
+    value: https://cloud.testdroid.com/api/me/projects/139316294/runs
     type: text
   - name: bitbarTestReportLocation
-    value: https://cloud.testdroid.com/#service/testrun/137948056/
+    value: https://cloud.testdroid.com/#service/testrun/139316294/
     type: text
   - name: issueGitRepo
-    value: https://api.github.com/repos/vinapp/testdroid-samples/issues
+    value: https://api.github.com/repos/sam-almighty/testdroid-samples/issues
     type: text
   jobs:
   - name: LogsUpload
