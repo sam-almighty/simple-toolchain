@@ -14,9 +14,9 @@ template:
     - testscript-repo
   info:
     git url: >-
-      [https://github.com/vinapp/simple-toolchain](https://github.com/vinapp/simple-toolchain)
+      [https://github.com/vinapp/simple-toolchain](https://github.com/sam-almighty/simple-toolchain)
     git branch: >-
-      [master](https://github.com/vinapp/simple-toolchain/tree/master)
+      [master](https://github.com/sam-almighty/simple-toolchain/tree/master)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
   template:
@@ -27,7 +27,7 @@ services:
     service_id: githubpublic
     parameters:
       repo_name: 'testscript-repo-{{timestamp}}'
-      repo_url: 'https://github.com/vinapp/testdroid-samples'
+      repo_url: 'https://github.com/sam-almighty/testdroid-samples'
       type: clone
       has_issues: true
       enable_traceability: true
@@ -35,7 +35,7 @@ services:
     service_id: githubpublic
     parameters:
       repo_name: 'app-repo-{{timestamp}}'
-      repo_url: 'https://github.com/vinapp/sample-android-app'
+      repo_url: 'https://github.com/sam-almighty/sample-android-app'
       type: clone
       has_issues: false
       enable_traceability: false
