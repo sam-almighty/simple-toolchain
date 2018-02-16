@@ -14,7 +14,7 @@ template:
     - testscript-repo
   info:
     git url: >-
-      [https://github.com/vinapp/simple-toolchain](https://github.com/sam-almighty/simple-toolchain)
+      [https://github.com/sam-almighty/simple-toolchain](https://github.com/sam-almighty/simple-toolchain)
     git branch: >-
       [master](https://github.com/sam-almighty/simple-toolchain/tree/master)
 toolchain:
